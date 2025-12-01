@@ -1,0 +1,30 @@
+{
+  "workspace": {
+    "name": "Fortune Pacific Website Upgrade",
+    "primary_path": "/www/wwwroot/fortunepacific.net",
+    "backup_paths": [
+      "/www/backup",
+      "/www/wwwlogs"
+    ]
+  },
+  "development_tools": {
+    "vscode": {
+      "optimization": {
+        "git_post_buffer": 524288000,
+        "compression": 0,
+        "credential_helper": "store"
+      }
+    },
+    "lingma": {
+      "optimization": {
+        "node_memory_limit": 4096,
+        "cache_directory": "/tmp/lingma_cache"
+      }
+    }
+  },
+  "monitoring": {
+    "disk_space_threshold": "80%",
+    "memory_usage_threshold": "80%",
+    "cleanup_enabled": true
+  }
+}

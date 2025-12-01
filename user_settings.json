@@ -1,0 +1,26 @@
+{
+  "user": {
+    "name": "root",
+    "home_directory": "/root",
+    "shell": "/bin/bash",
+    "environment_variables": {
+      "PATH": "/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/root/bin",
+      "HOME": "/root",
+      "USER": "root"
+    }
+  },
+  "git": {
+    "username": "fortunepacific-website-upgrade",
+    "email": "fortunepacific@example.com",
+    "credential_helper": "store"
+  },
+  "system": {
+    "os": "CentOS release 6.9 (Final)",
+    "architecture": "x86_64"
+  },
+  "performance_optimization": {
+    "file_descriptor_limit": 100000,
+    "network_optimization": true,
+    "ssh_dns_lookup": false
+  }
+}

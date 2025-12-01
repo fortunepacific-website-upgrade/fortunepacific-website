@@ -1,0 +1,27 @@
+{
+  "project": {
+    "name": "Fortune Pacific Website",
+    "path": "/www/wwwroot/fortunepacific.net",
+    "owner": "www",
+    "version": "4.0029"
+  },
+  "directories": {
+    "root": "/www/wwwroot/fortunepacific.net",
+    "include": "/www/wwwroot/fortunepacific.net/inc",
+    "manage": "/www/wwwroot/fortunepacific.net/manage",
+    "static": "/www/wwwroot/fortunepacific.net/static",
+    "uploads": "/www/wwwroot/fortunepacific.net/u_file"
+  },
+  "database": {
+    "host": "localhost",
+    "port": "3306",
+    "name": "fortunepacific_",
+    "username": "fortunepacific_",
+    "password": "XAtKBFaZn52AfM3F"
+  },
+  "cleanup_schedule": {
+    "every_3_hours": "清理备份文件和临时文件",
+    "daily": "清理3天以上tmp文件和大日志文件",
+    "weekly": "深度清理7天以上文件"
+  }
+}
