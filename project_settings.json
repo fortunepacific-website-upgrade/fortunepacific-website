@@ -23,5 +23,20 @@
     "every_3_hours": "清理备份文件和临时文件",
     "daily": "清理3天以上tmp文件和大日志文件",
     "weekly": "深度清理7天以上文件"
+  },
+  "git_integration": {
+    "repository_path": "/www/wwwroot/fortunepacific.net",
+    "remote_url": "https://github.com/fortunepacific-website-upgrade/fortunepacific-website-upgrade.git",
+    "branch_strategy": {
+      "main": "生产环境代码",
+      "develop": "开发环境代码",
+      "feature": "功能开发分支"
+    },
+    "best_practices": [
+      "所有配置文件必须在仓库目录内",
+      "避免添加仓库外文件",
+      "定期推送保持同步",
+      "使用有意义的提交信息"
+    ]
   }
 }

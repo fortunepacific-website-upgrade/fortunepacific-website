@@ -22,5 +22,43 @@
     "file_descriptor_limit": 100000,
     "network_optimization": true,
     "ssh_dns_lookup": false
+  },
+  "path_management": {
+    "important_directories": {
+      "website_root": "/www/wwwroot/fortunepacific.net",
+      "git_repository": "/www/wwwroot/fortunepacific.net",
+      "configuration_files": "/www/wwwroot/fortunepacific.net",
+      "scripts": "/www/wwwroot/fortunepacific.net",
+      "backup_directory": "/www/backup",
+      "logs_directory": "/www/wwwlogs"
+    },
+    "path_validation_rules": [
+      "所有配置文件必须在Git仓库目录内",
+      "脚本文件应在网站根目录或其子目录中",
+      "避免跨目录操作文件",
+      "使用相对路径而非绝对路径"
+    ],
+    "common_mistakes_to_avoid": [
+      "不要在/root目录创建网站相关配置文件",
+      "不要尝试添加Git仓库外的文件",
+      "确保所有文件操作在正确的工作目录中进行",
+      "推送前验证文件是否在正确的目录中"
+    ]
+  },
+  "error_prevention": {
+    "path_related_errors": {
+      "prevention_measures": [
+        "在执行文件操作前总是检查当前工作目录",
+        "使用pwd命令验证当前位置",
+        "确保目标文件在Git仓库范围内",
+        "避免使用可能导致路径错误的通配符"
+      ],
+      "recovery_procedures": [
+        "发现路径错误时立即停止操作",
+        "检查文件实际位置",
+        "使用mv命令将文件移至正确位置",
+        "重新执行正确的Git操作"
+      ]
+    }
   }
 }
