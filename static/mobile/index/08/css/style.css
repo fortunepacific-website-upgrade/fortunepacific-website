@@ -1,0 +1,30 @@
+@charset "utf-8";
+/*
+Powered by ly200.com		http://www.ly200.com
+广州联雅网络科技有限公司		020-83226791
+*/
+
+.banner{position:relative;}
+
+.homebar{line-height:1.8125rem; height:1.8125rem; background:#7b7b7b;}
+.homebar .btn{line-height:1.8125rem; height:1.8125rem; width:9.21875%; background:#4d4d4d url(../images/homebar1.png) no-repeat center center/13.559322%;}
+.homebar .btn:first-child{background:#4d4d4d url(../images/homebar0.png) no-repeat center center/13.559322%;}
+.homebar .list{width:81.5%; height:1.8125rem; overflow:hidden;}
+.homebar .list .c{width:1000%;}
+.homebar .list .c .item{line-height:1.8125rem; height:1.8125rem;}
+.homebar .list .c .item a{color:#fff; font-size:0.75rem; padding:0.1875rem 2.6875rem; border-right:1px solid #959595;}
+
+.home_title{line-height:2.1875rem; height:2.1875rem; width:93.4375%; margin:0 auto; font-size:0.875rem;}
+.home_title .more{font-size:0.75rem; height:1.0625rem; line-height:1.0625rem; border-radius:0.2rem; padding:0 3.3389%; margin-top:0.5625rem; text-transform:capitalize;}
+.home_box{border:1px solid #d8d9db; border-radius:0.2rem; width:93.4375%; margin:0 auto 0.625rem; background:#fff; overflow:hidden;}
+.home_box .small_pro{width:49.81%;}
+.home_box .small_pro:nth-child(odd){border-right:1px solid #d8d9db; padding-bottom:8rem; margin-bottom:-8rem;}
+.home_box .small_pro .c{width:91.6107%; margin:0 auto; padding-top:0.4375rem; padding-bottom:0.5rem;}
+.home_box .small_pro .c .img{min-height:8.5625rem; width:100%; height:8.5625rem; text-align:center; background:url(../../../images/loading.gif) no-repeat center; background-size:11.7216117%;}
+.home_box .small_pro .c .img img{vertical-align:middle; max-height:100%;}
+.home_box .small_pro .c .proname{line-height:0.75rem; height:1.5625rem; padding-top:0.25rem; overflow:hidden;}
+.home_box .small_pro .c .proname a{font-size:0.75rem; color:#333;}
+.home_box .small_pro .c .price{color:#d8061f; font-size:0.75rem; line-height:2.375rem; margin-top:0.3rem;}
+
+
+

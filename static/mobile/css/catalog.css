@@ -1,0 +1,19 @@
+@charset "utf-8";
+/*
+Powered by ly200.com		http://www.ly200.com
+广州联雅网络科技有限公司		020-83226791
+*/
+
+.category_list{}
+.category_list .item{width:90.625%; margin:0 auto;}
+.category_list .item .cate_1{border-bottom:0.0625rem solid #e0e0e0; height:3.125rem; position:relative; padding-left:1.72413%;}
+.category_list .item .cate_1 .img{width:13.4375%; height:3.125rem; margin-left:4.375%;}
+.category_list .item .cate_1 .img img{vertical-align:middle; max-height:100%;}
+.category_list .item .cate_1 .name{line-height:3.125rem; color:#333; font-size:0.75rem; width:68.75%; padding-right:9.0625%; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; height:3.125rem;}
+.category_list .item .cate_1 .name a{color:#333; font-size:0.875rem;}
+.category_list .item .cate_1.lower:after{position:absolute; width:0.75rem; height:0.75rem; background:url(../images/category_lower.jpg) no-repeat center center; background-size:100%; content:''; left:92.03125%; top:50%; margin-top:-0.2rem; -webkit-transition:-webkit-transform .3s linear 0s; transition:transform .3s linear 0s;}
+.category_list .item .cate_2{display:none;}
+.category_list .item .cate_2 .i{-webkit-box-sizing:border-box; box-sizing:border-box; display:block; padding-left:4.09375%; width:100%; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; height:2.75rem; line-height:2.75rem; font-size:0.75rem; color:#333; border-bottom:0.0625rem solid #e0e0e0;}
+.category_list .item .cate_2 .i a{}
+.category_list .item.on .cate_1.lower:after{-webkit-transform:rotate(180deg); transform:rotate(180deg);}
+.category_list .item.on .cate_2{display:block;}

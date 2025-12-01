@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+#user li.custom_column{position:relative; overflow:visible;}
+#user li.custom_column .custom_click{height:33px; line-height:33px; position:relative; z-index:1009; border-top-right-radius:6px; border-bottom-right-radius:6px; overflow:hidden;}
+#user li.custom_column .custom_body{position:absolute; left:0px; top:100%; width:368px; border:1px #cecece solid; background:#fff; box-shadow:2px 2px 5px 2px rgba(0,0,0,0.1); z-index:1001; padding:15px; line-height:23px; display:none; text-indent:0;}
+#user li.custom_column .custom_btn{background:#07bb8a; border:none; color:#fff; border-radius:5px; width:68px; height:25px; line-height:25px; cursor:pointer;}
+
+.custom_body .input_checkbox_box{display: inline-block;vertical-align: middle;}
+.user_input_checkbox_box{display: inline-block;vertical-align: middle;margin-right: 7px;}
+.user_input_checkbox_box .input_checkbox{position: relative;display: inline-block;vertical-align: middle;width: 15px;height: 15px;border:1px solid #cccccc;border-radius: 2px;cursor: pointer;margin-right: 5px;}
+.user_input_checkbox_box .input_checkbox:before{display: none;content: '';position: absolute;top: 0;bottom: 0;right: 0;left: 0;margin: auto;width: 100%;height: 100%;background: #07bb8a url(../images/frame/icon_checkbox_checked.png) no-repeat center center;}
+.user_input_checkbox_box .input_checkbox input{display: none;}
+.user_input_checkbox_box.checked{color: #07bb8a;}
+.user_input_checkbox_box.checked .input_checkbox{border-color: #07bb8a;}
+.user_input_checkbox_box.checked .input_checkbox:before{display: block;}
+.user_input_checkbox_box.disabled{color: #333;}
+.user_input_checkbox_box.disabled .input_checkbox{border-color: #ccc;}
+.user_input_checkbox_box.disabled .input_checkbox:before{display: block;background-color: #ccc;}
+.user_input_checkbox_box:hover .input_checkbox{box-shadow: 0 0 5px rgba(7,187,139,0.3);}
+
+#user .r_con_form{padding-bottom:30px;}
+#user .user_list{height:465px;margin: 0 auto ; overflow-y:auto; background:#fff;}
+#user .user_list li{height:30px; line-height:30px; overflow:hidden; border-bottom:1px #ccc solid; cursor:pointer;}
+#user .user_list li input{cursor:pointer; margin-left:10px; margin-top:9px;}
+#user .user_list li a{display:block; padding-left:33px; text-decoration:none;}
+#user .user_list li a:hover{color:#333;}
+#user .user_list li span:hover{text-decoration:underline;}
+#user .user_list li.current{background:#87aabe;}
+#user .user_list li.current a{color:#fff;}
+/*#explode_form .all_btn{margin: 20px 0;}
+#explode_form .all_btn .btn_checkbox{display: inline-block;vertical-align: middle;margin-right: 8px;}*/
+#user #explode_progress{padding:20px; line-height:200%;}
+
+
+.base_info{}
+.base_info .rows.email{}
+.base_info .rows.email .input a{background: url(../images/frame/email.png) no-repeat left center;padding-left: 25px;color: #54a28f;}
+.base_info .box_input{width: 300px;}
+.base_info .base{width: 50%;}
+.base_info .log-info{width: 40%;}
+
+.password_info .box_input,
+#user_add .box_input{width: 250px;}

@@ -1,0 +1,22 @@
+@charset "utf-8";
+/*
+Powered by ly200.com		http://www.ly200.com
+广州联雅网络科技有限公司		020-83226791
+*/
+
+#prolist{min-height: 150px;}
+.page_title{width: 96%;margin: 0.7rem auto 0;padding-left: 0;line-height:1.875rem; background:#f3f3f3; height:1.875rem;text-align: center;}
+.page_title .pos{height: 1.875rem;}
+.page_title .pos .column{padding-left: 0.75rem;line-height:1.875rem; font-size:0.75rem; color:#444; height:1.875rem;text-overflow:ellipsis; white-space:nowrap;overflow: hidden;}
+.page_title a{font-size:0.75rem; color:#444;}
+.home_box{border-radius:0.05rem; margin: 0 auto; background:#fff;}
+.home_box .small_pro{position: relative;padding:4%;}
+.home_box .small_pro .more{display: inline-block;width: 2.2rem;height: 2.2rem;margin-top: 0.75rem;background: #1e1e1e url(../images/view.png) no-repeat center center / 50% auto;}
+.home_box .small_pro .inquiry{display: inline-block;width: 2.2rem;height: 2.2rem;margin-top: 0.75rem;margin-left: 0.5rem;background: #ebeaea url(../images/inquiry.png) no-repeat center center / 50% auto;}
+.home_box .small_pro .c{width:100%; margin:0 auto;padding-bottom: 4%;border-bottom: 1px solid #ddd;}
+.home_box .small_pro .c .img{width:100%;padding:0.1875rem 0; min-height: 3rem; text-align:center; background:url(../../../images/loading.gif) no-repeat center; background-size:11.7216117%;}
+.home_box .small_pro .c .img img{vertical-align:middle; max-height:100%;}
+.home_box .small_pro .c .proname{display: block;position: relative;line-height:1.125rem;font-size: 1rem;color:#000;margin: 0.4rem 0;}
+.home_box .small_pro .c .desc{line-height: 1rem;overflow: hidden;font-size: 0.75rem;margin-top: 0.1rem;color: #777;}
+.home_box .small_pro .c .price{float: right;color:#d8061f; font-size:1.25rem; line-height:2.2rem; margin-top:0.75rem;margin-right: 0.75rem;}
+.btn_global button{display: block;width: 96%;}

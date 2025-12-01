@@ -1,0 +1,19 @@
+@charset "utf-8";
+/*
+Powered by ly200.com		http://www.ly200.com
+广州联雅网络科技有限公司		020-83226791
+*/
+.pro_list{width:93.75%; margin:0.55rem auto 0;}
+.pro_list .item{border:1px solid #e1e1e1; border-radius:0.2rem; margin-bottom:1rem; padding:0.3rem;}
+.pro_list .item .img{width: 5rem; height:5rem; text-align:center; background:url(../../../images/loading.gif) no-repeat center; background-size:20.125786%;}
+.pro_list .item .img img{vertical-align:middle; max-height:100%;}
+.pro_list .item .desc{margin-left: 6rem;}
+.pro_list .item .desc .name{line-height:1.25rem;}
+.pro_list .item .desc .name a{font-size:0.75rem; color:#333;}
+.pro_list .item .desc .n2{color:#666; font-size:0.75rem; line-height:1rem;}
+.pro_list .item .desc .price{color:#d8061f; font-size:0.875rem; line-height:1rem;margin-top: 0.3rem;}
+.pro_list .item .desc .inquiry{text-align:right; padding-right:4.5112781954887%;margin-bottom: 0.3rem;}
+.pro_list .item .desc .inquiry a{font-size:0.75rem; line-height:1.25rem; height:1.25rem; display:inline-block; padding:0 0.5rem; border-radius:0.2rem;}
+
+
+

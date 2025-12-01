@@ -1,0 +1,31 @@
+/*
+Powered by ly200.com		http://www.ly200.com
+广州联雅网络科技有限公司		020-83226791
+*/
+/*#email #photo_choice{position:fixed; top:50%; left:15%; border:5px solid #37BD9C; border-radius:5px; width:70%; z-index:10001; background:#fff;}*/
+#email #photo_choice{width: 60%; height: 80%;top: 0; left: 0; right: 0; bottom: 0; margin: auto;}
+#email #photo_choice iframe{width:100%; overflow:hidden;}
+
+#email .choice_btn{display:inline-block; border:1px #e0e0e0 solid; height:35px; line-height:35px; padding:0 20px; border-radius:3px; cursor:pointer; color:#333; background:#fff;box-sizing: border-box;}
+#email .choice_btn.current{border:1px #109a66 solid; color:#fff; background:url(../images/frame/checkbox_current.png) no-repeat 96% center #109a66;}
+#email .choice_btn:hover{border-color: #109a66;color: #109a66;}
+#email .choice_btn.current:hover{color: #fff;}
+#email .choice_btn>input{display:none;}
+#email .choice_btn b{font-weight:normal; font-size:14px;}
+
+#user_gr{width:100%; background:#fff;}
+#user_gr .list_hd{height:45px; line-height:45px; background:#f5f5f5;}
+#user_gr .list_title{margin-left:11px; font-weight:bold;}
+#user_gr .user_list{width:100%; overflow-x:hidden; overflow-y:scroll;}
+#user_gr .user_list .level_title{padding:10px 0 5px;}
+#user_gr .user_list .choice_btn{margin-bottom:5px; width:21%; overflow:hidden; font-size:12px;margin: 0 1% 10px;}
+#user_gr .user_list .choice_btn b{-webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none;}
+#user_gr .list_foot{height:30px; overflow:hidden; padding:5px 50px;}
+#user_list_form{padding:10px 20px 0;}
+
+input.user_group{background-color: #0cb083;color: #fff;border: 1px solid #0cb083 !important;}
+input.user_group:hover{background-color: #05a579;}
+
+#email_logs .email_content{overflow: hidden;height: 450px;overflow-y: auto;padding: 10px;background: #fff;border: 1px #ddd solid;}
+
+#email_logs .center_container{padding: 0;}

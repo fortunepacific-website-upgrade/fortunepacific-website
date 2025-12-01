@@ -1,0 +1,31 @@
+@charset "utf-8";
+/*************************** 宽屏样式(start) ***************************/
+.w_1200 #int .intl{ width:255px;}
+.w_1200 #int #banner{ width:883px; height:406px;}
+
+.w_1200 #inm .inml{ width:904px;}
+.w_1200 #inm .inml .list{ width:180px; height:315px; padding:20px;}
+.w_1200 #inm .inmr{ width:235px;}
+
+.w_1200 #inm .inml .a_list{ width:443px; height:205px;}
+/***************************  宽屏样式(end)  ***************************/
+/*************************** Index (start) ****************************/
+#int .intl{ overflow:hidden; width:208px;}
+#int #banner{ width:721px; height:332px; overflow:hidden;}
+#int #banner .slideNum_1 .hd li{ width:25px; height:10px; background:#8a8a8e; border-radius:0; -moz-border-radius:0; -ms-border-radius:0; -o-border-radius:0; -webkit-border-radius:0;}
+#int #banner .slideNum_1 .hd li.on{ background:#fff;}
+
+#inm .inml{ width:738px;}
+#inm .inml .list{ width:148px; margin-left:8px; background:#fff; height:280px; padding:15px;}
+#inm .inml .list:first-child{ margin-left:0;}
+#inm .inml .list .pic{ text-align:center; height:180px;}
+#inm .inml .list .pic img{ vertical-align:middle;}
+#inm .inml .list .pic span{ height:100%; display:inline-block; vertical-align:middle;}
+#inm .inml .list .name{ height:20px; line-height:20px; overflow:hidden;margin-top:7px;}
+#inm .inml .list .name a{ font-size:14px;}
+#inm .inml .list .row{ height:20px; line-height:20px; overflow:hidden; margin-top:5px; text-indent:15px; background:url(../images/cate_sign.jpg) 0 center no-repeat;}
+#inm .inml .a_list{ width:367px; height:170px; text-align:center; overflow:hidden;}
+#inm .inml .a_list img{ vertical-align:middle;}
+#inm .inml .a_list span{ height:100%; display:inline-block; vertical-align:middle;}
+
+#inm .inmr{ width:200px;}

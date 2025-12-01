@@ -1,0 +1,92 @@
+/*
+Powered by ly200.com		http://www.ly200.com
+广州联雅网络科技有限公司		020-83226791
+*/
+
+var lang_obj={
+	global:{
+		'confirm':'決定する',
+		'already':'この製品は、すでに存在する問い合わせバッグ!',
+		'add':'あなたの質問をカートに追加!',
+		'add_newsletter':'成功した購読に追加されました！',
+		'email_exists':'このメールボックスは既に購読しています！',
+		'continues':'ツアーを続ける',
+		'inquery':'現在問合せ',
+		'cancel':'キャンセル',
+		'copy_confirm':'製品のコピーモードへの、継続？',
+		'copy_model_confirm':'プロパティのコピーモードを入力し、継続？',
+		'del_confirm':'回復不能な削除した後、継続？',
+		'reset_confirm':'デフォルト設定を復元するために決定され、継続？',
+		'used_confirm':'バッチモードは開く準備ができている、継続？',
+		'close_confirm':'バッチモードをシャットダウンする準備ができて、継続？',
+		'my_order_confirm':'モードをソートするには準備ができて、継続？',
+		'sold_in_confirm':'追加されたモデルは、引き続き、準備ができている？',
+		'sold_out_confirm':'フレームモードで作成されており、継続？',
+		'data_posting':'データ提出...',
+		'confirm_password_error':'パスワードと一致しませんパスワードの確認、再入力してください！',
+		'del_dat_select':'削除された項目を選択してください',
+		'used_dat_select':'開いているアイテムを選択してください',
+		'close_dat_select':'プロジェクトのクローズを選択してください',
+		'dat_select':'選択した項目を選択してください',
+		'correct_message':'正しいデータを記入してください',
+		'n_y':['ノー','ある'],
+		'open':'展開する',
+		'pack_up':'崩壊',
+		'del':'削除',
+		'picture':'絵',
+		'picture_name':'画像名',
+		'set_error':'セットには、不明なエラーで失敗しました！'
+	},
+	format:{
+		'mobilephone':'正しい電話番号を記入してください！',
+		'telephone':'電話番号を記入してくださいは正しいです！',
+		'fax':'正しいファックス番号を記入してください！',
+		'email':'正しいEメールアドレスをご記入ください！'
+	},
+	signIn:{
+		'title':'ログイン',
+		'error_note':'不正な電子メールアドレスまたはパスワード。もう一度やり直してください。<br> キャップを使用すると、パスワードを入力する前に、オフになっているロックを確認してください。',
+		'email':'メール',
+		'password':'パスワード',
+		'forgot':'<a href="/account/forgot.html" class="forgot">パスワードをお忘れですか</a>?',
+		'stay_note':'あなたのプライバシーを保護サインイン状態 <span>設定が完了したら、サインアウト。</span>',
+		'sign_in':'ログイン',
+		'join_fee':'登録'
+	},
+	manage:{
+		account:{
+			"order_quantity":"Webサイトの注文",
+			"page_view":"サイト訪問",
+			"success_cache":"空のキャッシュは正常になっている！",
+			"percentage":"パーセンテージ",
+			"picture_tips":"あなたは、XXXの写真よりも多くをアップロードアップロードすることはできません画像の数！"
+		},
+		set:{
+			"select_once_language":"少なくとも1つの言語バージョンを選択してください",
+			"print_0":"印刷宣言",
+			"print_1":"印刷の請求書",
+		},
+		module:{
+			"sure_module":"あなたはこのスタイルを選択してもよろしいですか？",
+			"name":"名前",
+			"url":"リンクアドレス",
+			"target":"新規ウインドウ",
+		},
+		photo:{
+			"empty_temp":"成功した一時フォルダをクリアした！",
+			"move_success":"モバイル成功"
+		},
+		products:{
+			"category_tips":"選択してください",
+			"qty":"数量",
+			"price":"プライス",
+			"group_attr":"属性の組み合わせ",
+			"prefix_tips":"製品番号のプレフィックスは空にすることはできません！"
+		},
+		email:{
+			"load_error":"テンプレートデータが失敗した読み込み、後で再試行してください！",
+			"not_model":"テンプレートを選択しないでください！",
+			"not_user":"会員がない！"
+		}
+	}
+};

@@ -1,0 +1,56 @@
+/*
+Powered by ly200.com		http://www.ly200.com
+广州联雅网络科技有限公司		020-83226791
+*/
+#mobile{}
+#mobile .temp_list{}
+#mobile .temp_list .item{margin-top:20px; margin-left:21px; cursor:pointer;}
+#mobile .temp_list .item .img{width:250px; padding:2px; height:400px; position:relative;}
+#mobile .temp_list .on .img{border:2px solid #53a18e; padding:0;}
+#mobile .temp_list .item .img .icon{position:absolute; top:-12px; right:-14px; display:none; width:63px; height:50px; overflow:hidden; content:''; background:url(../images/mobile/on.png) no-repeat 0 0;}
+#mobile .temp_list .on .img .icon{display:block;}
+#mobile .list_btn{margin-left:21px; margin-top:20px;}
+
+#mobile .m_header{width:95.2%; margin-left:2.3%;}
+
+.rows_hd{height:48px; line-height:48px; text-indent:21px; font-weight:bold; border-left:3px #55a290 solid;}
+.edit_hd{padding-top:10px; padding-bottom:10px; line-height:24px; background:#f6f6f6;}
+.rows_box{background:#fff; padding-bottom:10px;}
+.r_con_form{border-top:0;}
+.r_con_form .rows{background:#fff;}
+.r_con_form .rows_hd{height:48px; line-height:48px; text-indent:21px; font-weight:bold; border-left:3px #55a290 solid;}
+.rows .valign{color:#888; height:32px; line-height:28px;}
+.rows .classify{width:29%;}
+.rows .classify select{width:95%;}
+.rows .notes_icon{margin-top:7px;}
+.rows .expand_btn{margin:0; margin-right:3px;}
+.rows .expand_list{width:49%;}
+.rows .expand_list select{margin:0 3px 6px 6px; width:39%;}
+.rows .attribute{padding:5px 10px; width:90%;}
+.rows .attribute h1{padding-bottom:3px; font-size:12px;}
+.rows .attribute label{text-overflow:clip; font-size:12px; color:#666; text-align:left;}
+.rows .attribute .txt{width:50%; height:34px; line-height:34px; background:none; border:0;}
+.rows .color_list{border-bottom:1px #ccc solid;}
+#iframe_page .r_con_form label{width:12%; text-align:right; padding-right:2%;}
+
+#mobile .headicon{margin-right:15px; text-align:center;}
+#mobile .headicon .img{padding:2px; cursor:pointer;}
+#mobile .headicon .img.on{border:2px solid #53a18e; padding:0;}
+#mobile .headicon .img img{vertical-align:middle;}
+.rows .preview{padding:0 20px; font-size:18px; line-height:40px; background-color:#fff; color:#666; border:1px solid #ccc;}
+
+#Linkrow .row{margin-bottom:5px;}
+
+#ad .r_con_table .last{padding:0;}
+#ad .r_con_table .last table{border-collapse:collapse; margin-top:-1px;}
+#ad .r_con_table .last table td{border:#e8e8e8 solid; border-width:1px 0 0 0;}
+#ad .r_con_table .last table .center{text-align:center;}
+
+#ad .rows .adpic_row{padding:6px 0;}
+#ad .rows .adpic_row:hover{background:#f4f4f4;}
+#ad .rows .adpic_row .price_input{display:block; margin-top:11px;}
+#ad .rows .adpic_row .price_input:first-child{margin-top:0px;}
+#ad .rows .adpic_row .drag_bg{width:18px; height:49px; overflow:hidden; margin-left:4%; margin-top:32px; display:none; background:url(../images/frame/drag_arrows.png) no-repeat center;}
+#ad .rows .adpic_row:hover .drag_bg{display:block;}
+#ad .rows .placeHolder{border:1px dashed #e8e8e8;}
+.r_con_form .rows .input .multi_img div a{cursor:move;}

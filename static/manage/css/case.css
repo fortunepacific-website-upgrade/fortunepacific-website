@@ -1,0 +1,104 @@
+/*
+Powered by ly200.com		http://www.ly200.com
+广州联雅网络科技有限公司		020-83226791
+*/
+html, div{outline:0;}
+.show{display:block;}
+.hide{display:none;}
+.ta_l{text-align:left;}
+.va_m{vertical-align:middle;}
+.no_drop{cursor:no-drop;}
+.line_h_28{line-height:28px;}
+.mar_l_10{margin-left:10px;}
+.mar_r_0{margin-right:0;}
+.w_362{width:362px;}
+
+.edit_box{height:30px; line-height:30px;}
+.edit_box span{padding-left:6px;}
+
+#category{width:100%; position:relative;}
+#category:after{clear:both; display:block; content:'';}
+#category .disable{filter:alpha(opacity=50); -moz-opacity:0.5; opacity:0.5;}
+#category .page_menu{width:26%; height:100%; position:absolute; border-right:1px solid #eee; overflow:hidden; outline:0;}
+#category .page_menu_hd{height:46px; line-height:46px; padding-left:5%;}
+#category .page_menu_hd .add_btn{margin-right:5%; margin-top:5px;}
+#category .menu_search{height:44px; line-height:44px; background:#fff; padding-left:5%;}
+#category .page_menu_list{padding:1px 0 20px 0;}
+#category .page_menu_list .menu_one{height:41px; line-height:41px; padding:0 4px; background:url(../images/products/menu_dt_cur.png) no-repeat 5% center; cursor:move;}
+#category .page_menu_list h4{margin-left:15%; width:61%; height:41px; overflow:hidden; color:#666;}
+#category .page_menu_list h4>a{text-decoration:none;}
+#category .page_menu_list dl{padding-bottom:8px; padding-right:2%;}
+#category .page_menu_list .sub{background:url(../images/products/menu_dt.png) no-repeat 12% 8px; padding-left:21%; height:25px; line-height:25px; cursor:move;}
+#category .page_menu_list .sub:after{clear:both;}
+#category .page_menu_list .parent_th{padding:0;}
+#category .page_menu_list .menu_th{padding-left:21%; background:url(../images/products/menu_sub_of.png) no-repeat 10% -5px;}
+#category .page_menu_list dt dd:last-child .menu_th{background-position:10% -30px;}
+#category .page_menu_list .menu_dot{width:4px; height:7px; background:url(../images/products/menu_dot.png) no-repeat; margin:18px 5% 0 0;}
+#category .page_menu_list .menu_view{display:none; margin-top:4px;}
+#category .page_menu_list .menu_one .menu_view{margin-top:12px; line-height:0;}
+#category .page_menu_list .copy, #category .page_menu_list .edit, #category .page_menu_list .del{margin-right:2%;}
+#category .page_menu_list .sub_click{width:59%; background:#f5f5f5; cursor:move; height:25px; overflow:hidden;}
+#category .page_menu_list .cur{font-weight:bold;}
+#category .page_menu_list .current, #category .page_menu_list .current .sub_click, #category .page_menu_list .menu_one:hover{background-color:#fff;}
+#category .page_menu_list .menu_one:hover, #category .page_menu_list .sub:hover, #category .page_menu_list  .sub:hover .sub_click{text-decoration:none;}
+#category .page_menu_list .menu_one:hover .menu_view, #category .page_menu_list .current .menu_one .menu_view, #category .page_menu_list .sub:hover .menu_view{display:inline;}
+#category .page_menu_list .menu_one:hover .menu_dot{display:none;}
+#category .page_menu_list .current .menu_dot{display:none;}
+#category .page_menu_list .placeHolder{border:1px #1584D5 dashed; background-color:#fff;}
+#category .view{width:73.5%; padding-bottom:30px; background:#fff; box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box;}
+#category .r_con_form .rows_hd{height:48px; line-height:48px; text-indent:21px; font-weight:bold; border-left:3px #55a290 solid;}
+#category .r_con_form label{width:12%; text-align:right; padding-right:2%;}
+#category .r_con_form .attribute_select{height:100px;}
+#category .r_con_form .fixed{line-height:28px;}
+
+#case .control_btn{margin-bottom:5px;}
+#case .r_con_table{width:100%;}
+#case .r_con_table td{text-align:left; padding-left:1.5%; position:relative;}
+#case .r_con_table .warn_stock{position:absolute; right:5px; top:5px; width:20px; height:20px; background:url(../images/products/warning.png) no-repeat;}
+#case .photo{width:90px;}
+#case .other span{margin-right:30px; display:block;}
+
+#iframe_page .r_con_form label{width:12%; text-align:right; padding-right:2%;}
+
+.edit_hd{padding-top:10px; padding-bottom:10px; line-height:24px; background:#f6f6f6;}
+.rows_box{background:#fff; padding-bottom:10px;}
+.r_con_form{border-top:0;}
+.rows .valign{color:#888; height:32px; line-height:28px;}
+.rows .classify{width:29%;}
+.rows .classify select{width:95%;}
+.rows .notes_icon{margin-top:7px;}
+.rows .expand_btn{margin:0; margin-right:3px;}
+.rows .expand_list{width:49%;}
+.rows .expand_list select{margin:0 3px 6px 6px; width:39%;}
+.relation_box{width:100%; text-align:center; border:1px solid #ddd; background:#fff; border-left:none;}
+.relation_box .title{text-align:center; background:#f7f7f7;}
+.relation_box td{border-left:1px solid #ddd; border-top:1px dotted #ddd; padding:4px 5px;}
+.relation_box thead td{border-top:none; font-weight:bold; background:#eee;}
+.relation_box td .form_input{width:40px; height:22px; line-height:22px;}
+.relation_box .spacing{padding:10px;}
+.relation_box .spacing img{left:0; top:0;}
+.btn_cancel{margin-left:10px;}
+
+#PicDetail div a{cursor:move;}
+#PicDetail .placeHolder{border:1px #e8e8e8 dashed; background-color:#fff; width:90px; height:90px; display:block;}
+
+.show_list{width:100%;}
+.show_list .box{border:1px #e0e0e0 solid; width:303px; height:168px; background:#fff; margin-bottom:26px;}
+.show_list .item{margin-right:19px; position:relative;}
+.show_list .child{position:absolute; left:2px; top:2px;}
+.show_list .model{height:128px; padding:0 9px; overflow:hidden;}
+.show_list .model .title{height:31px; line-height:31px; font-size:16px; margin-top:8px; color:#62889d;}
+.show_list .model .brief{line-height:170%; color:#595858;}
+.show_list .view{height:40px; background:#e0e0e0; overflow:hidden;}
+.show_list .view .set{line-height:40px; margin-left:10px;}
+.show_list .view .number{font-size:12px; padding-top:6px;}
+.show_list .view .form_input{height:28px; line-height:28px; border:1px solid #ddd; background:#fff; border-radius:5px; padding:0 5px; outline:0;}
+.show_list .view .sub_btn{display:inline-block; width:50px; height:28px; line-height:28px; border:none; padding:0 5px; text-align:center; text-decoration:none; margin-left:5px; background:#37bd9c; border:1px solid #32ad90; color:#fff; cursor:pointer; outline:0;} 
+.show_list .view .btn{margin:11px 9px 0 0;}
+.show_list .txt{display:none;}
+.show_list .txt_name{width:100px; display:inline-block;}
+
+#search_form{}
+.search .form_input, .search select{width:120px;}
+
+.category_list{overflow-x:hidden; overflow-y:scroll; width:100%;}

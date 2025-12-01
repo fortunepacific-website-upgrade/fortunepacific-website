@@ -1,0 +1,24 @@
+@charset "utf-8";
+/*
+Powered by ly200.com		http://www.ly200.com
+广州联雅网络科技有限公司		020-83226791
+*/
+
+.info_list{margin-bottom:0.5rem;min-height: 150px;}
+.info_list li{margin-top: 1.25rem; font-size:0.75rem; color:#333;padding-bottom: 1.125rem;box-shadow:  0 1rem 1rem -1rem rgba(204,204,204,0.5);}
+.info_list li .pic{float: left;width: 36%;height: 4.6875rem;text-align: center;}
+.info_list li .desc{float: right;width: 60%;}
+.info_list li .msg{height: 1.3125rem;line-height: 1.3125rem;font-size: 0;}
+.info_list li .msg .cate{display: inline-block;font-size: 0.75rem;color: #8bb93e;vertical-align: middle;}
+.info_list li .msg em{display: inline-block;vertical-align: middle;height: 0.8rem;width: 0;border-left: 1px solid #6b6b6b; margin: 0 0.5rem;}
+.info_list li .name{position: relative;display: block;line-height: 1.2rem;max-height: 1.2rem;padding: 0;margin-bottom: 0.3rem;font-size: 0.875rem;color: #000;overflow: hidden;white-space: nowrap;text-overflow:ellipsis;}
+.info_list li .time{vertical-align: middle;color: #999;padding: 0rem 0 0.3rem;font-size: 0.75rem;}
+.info_list li .brief{font-size: 0.75rem;line-height: 1rem;max-height: 2rem;overflow: hidden;color: #6d6d6d;}
+.info_list .down_btn{font-size:0.75rem; padding:0 0.5rem; line-height:1rem; height:1rem; border-radius:0.2rem;}
+
+.info_list li.first .pic{float: none;width:auto;max-width: 100%;height: auto;}
+.info_list li.first .desc{float: none;width:auto;padding:0 0.2rem;}
+.info_list li.first .name{padding: 0.6rem 0;margin: 0;line-height: 1.4rem;max-height: none;white-space: normal;}
+.info_list li.first .brief{line-height: 1.125rem;max-height: none;}
+.info_list li.first .time{padding: 0rem 0 0.6rem;}
+.info_list li.first .more{display: inline-block;height: 1.625rem;line-height: 1.625rem;padding:0 1rem;font-size: 0.75rem;margin-top: 1rem;text-transform: capitalize;}

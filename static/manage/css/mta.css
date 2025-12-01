@@ -1,0 +1,97 @@
+ /*
+Powered by ueeshop.com		http://www.ueeshop.com
+广州联雅网络科技有限公司		020-83226791
+*/
+
+
+/*************************** 全局 start ***************************/
+.ml5{margin-left:5px !important;}
+.mr5{margin-right:5px !important;}
+.box_charts{min-height:400px; padding:10px}
+.no_data{line-height:25px; margin-top:75px; padding-top:80px; text-align:center; color:#bbb; background:url(../images/account/icon_no_data.png) no-repeat center top;}
+
+.icon_terminal_all{width:30px; height:23px; background:url(../images/mta/icon_terminal_all.png) no-repeat center top; display:inline-block; vertical-align:top;}
+.icon_terminal_pc{width:30px; height:23px; background:url(../images/mta/icon_terminal_pc.png) no-repeat center top; display:inline-block; vertical-align:top;}
+.icon_terminal_mobile{width:30px; height:23px; background:url(../images/mta/icon_terminal_mobile.png) no-repeat center top; display:inline-block; vertical-align:top;}
+
+.mta_parent_box{width:50%; float:left;}
+.mta_parent_box:first-child{width:50%;}
+.mta_parent_top_box{width:100%;}
+.mta_parent_top_box>.ml5{margin-left:0;}
+.mta_parent_top_box>.mr5{margin-right:0;}
+.mta_parent_top_box .global_container:first-child{margin-top:10px;}
+
+#mta .global_container{margin:10px auto; padding:0 20px;}
+#mta .global_container .big_title{height:34px; line-height:34px; font-size:16px}
+#mta .inside_container{min-height:40px;}
+#mta .inside_table{background:none; padding-top:0;}
+#mta .title_sub{ font-size:14px; color:#555555; padding:10px 0}
+
+.mta_menu{height:45px; line-height:45px; margin-bottom:13px;}
+.mta_menu .box_drop_down_menu{margin-top:7px; margin-right:20px; padding:0;}
+.mta_menu .legend{display:none;}
+.mta_menu .legend>li{margin-right:28px;}
+.mta_menu .legend>li:before{width:9px; height:9px; margin-top:18px; margin-right:6px; border-radius:30px; display:inline-block; vertical-align:top; content:'';}
+.mta_menu .legend>li.time_1:before{background-color:#0cb083;}
+.mta_menu .legend>li.time_2:before{background-color:#4289ff;}
+.mta_menu .box_time .more_menu{min-width:110px;}
+.mta_menu .box_terminal .more>i{margin-top:5px;}
+.mta_menu .box_terminal .more_menu{min-width:110px;}
+.mta_menu .box_terminal .more_menu .item{height:33px; line-height:33px; padding:0 15px;}
+.mta_menu .box_terminal .more_menu .item>em{margin-top:9px; margin-right:5px; background-size:65%;}
+.mta_menu .box_terminal .more_menu .item>em.icon_terminal_pc{background-size:55%;}
+.mta_menu .box_terminal .more_menu .item>em.icon_terminal_mobile{margin-top:7px; background-size:35%;}
+
+#compared_form{width:530px;}
+#compared_form .t{border:0;}
+#compared_form .compared_bodyer{padding-top:12px; text-align:center; font-size:0;}
+#compared_form .compared_bodyer .unit_input{margin:5px 0; display:inline-block;}
+#compared_form .compared_bodyer .unit_input>b{font-size:12px;}
+#compared_form .compared_bodyer .unit_input .input_time{width:300px;}
+#compared_form .button{padding:25px 0; text-align:center; border:0;}
+#compared_form .button .btn_global:first-child{margin:0;}
+/*************************** 全局 end ***************************/
+
+
+/*************************** 流量统计 start ***************************/
+.box_data_list{min-height:140px; margin:0 -7px 0 -7px;}
+.box_data_list>li{width:25%;float:left;}
+.box_data_list>li .item{min-height:100px; margin:0 7px; padding:20px 28px; background-color:#fff; border-radius:4px;}
+.box_data_list>li .item h1{height:29px; line-height:29px; font-size:16px; color:#000;}
+.box_data_list>li .item h2{height:38px; line-height:38px; margin-top:5px; font-size:26px; color:#00a578;}
+.box_data_list>li .item h3{height:20px; line-height:20px; margin-top:5px; font-size:12px; color:#3470e9;}
+.box_data_list>li .item h2 .compare, .box_data_list>li .item h3.compare{font-size:20px; color:#888;}
+.box_data_list>li .item h2 .compare.vs, .box_data_list>li .item h3 .compare.vs{font-size:16px; margin-right:15px;}
+.box_data_list>li .fr{width:33px; height:16px; margin-top:15px;}
+.box_data_list>li .fr.down{background:url(../images/mta/compared_down.png) center center no-repeat;}
+.box_data_list>li .fr.up{background:url(../images/mta/compared_up.png) center center no-repeat;}
+
+.box_browser{padding-top:40px; padding-bottom:40px;}
+.box_browser .item{min-width:100px; min-height:284px; padding:0 30px; border-left:1px #eee solid; float:left;}
+.box_browser .item .box_charts{height:250px; min-height:250px; margin:0; padding:0;}
+.box_browser .item .browser_data{height:40px; line-height:40px;}
+.box_browser .item .browser_data .browser_left{float:left;}
+.box_browser .item .browser_data .browser_right{width:100px; height:8px; overflow:hidden; margin-top:16px; background-color:#f5f5f5; position:relative; float:right;}
+.box_browser .item .browser_data .browser_right .process{height:8px; overflow:hidden; background-color:#7560ff;}
+.box_browser .item .browser_data .browser_percent{margin:0 13px; text-align:right; float:right;}
+.box_browser .item:first-child{width:400px; padding:0; border:0;}
+/*************************** 流量统计 end ***************************/
+
+/*************************** 流量来源 start ***************************/
+.referer_inside_table{padding-bottom:0;}
+
+.table_report_list{width:100%;}
+.table_report_list>thead td{height:1px;}
+.table_report_list>tbody td{height:30px; padding-bottom:5px; font-size:14px;}
+.table_report_list>tbody td>div{height:30px; line-height:30px; overflow:hidden;}
+
+.visits_parent_top_box .global_container{height:455px;}
+.box_detail .r_con_table{width:100%; margin:0;}
+.box_url_info .table_report_list{width:100%; margin:0;}
+.box_url_info .table_report_list .title{max-width:350px;white-space: nowrap;text-overflow: ellipsis;}
+.box_url_info a.more{font-size:14px; color:#34c29b; font-weight:normal;}
+
+tr[data-key=search_engine],
+tr[data-key=share_platform]{cursor: pointer;}
+/*************************** 流量来源 end ***************************/
+

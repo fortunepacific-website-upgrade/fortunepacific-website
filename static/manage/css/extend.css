@@ -1,0 +1,114 @@
+/*
+Powered by ly200.com		http://www.ly200.com
+广州联雅网络科技有限公司		020-83226791
+*/
+html, div{outline:0;}
+.show{display:block;}
+.hide{display:none;}
+.ta_l{text-align:left;}
+.va_m{vertical-align:middle;}
+.no_drop{cursor:no-drop;}
+.line_h_28{line-height:28px;}
+.mar_l_10{margin-left:10px;}
+.w_362{width:362px;}
+
+/***** clear(清除浮动) start *****/
+.clearfix:after{content:"."; display:block; clear:both; visibility:hidden; line-height:0; height:0;}
+.clearfix{display:inline-block;}
+html[xmlns] .clearfix{display:block;}
+* html .clearfix{height:1%;}
+/***** clear(清除浮动) end *****/
+
+.edit_box{height:30px; line-height:30px;}
+.edit_box span{padding-left:6px;}
+
+#page{width:100%;}
+#page:after{clear:both; display:block; content:'';}
+
+.view{width:73.5%; background:#fff; box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box;}
+.list_hd{height:40px; line-height:40px; margin-bottom:10px; background:#fff; border:1px solid #ddd; text-indent:10px;}
+.list_title{font-weight:bold;}
+.list_nav .panel{margin-left:15px; margin-top:8px;}
+.list_nav .panel_1{background-position:-46px 0;}
+.list_nav .panel_2{background-position:-91px 0;}
+.list_nav .panel_4{background-position:-197px 0;}
+.list_nav .panel_5{background-position:-242px 0;}
+.list_nav .panel li{border:1px #cecece solid;  float:left; height:33px; line-height:33px; overflow:hidden; border-right:0; text-indent:99px;}
+.list_nav .panel li:first-child{border-top-left-radius:6px; border-bottom-left-radius:6px; border-right:0;}
+.list_nav .panel li:last-child{border-top-right-radius:6px; border-bottom-right-radius:6px; border-right:1px #cecece solid;}
+.list_nav .panel a{width:44px; height:33px; display:block; text-align:center; background-image:url(../images/frame/list_nav.jpg);}
+#page .list_nav .turn_page{clear:none; margin-left:15px; margin-top:13px;}
+.list_bd .rows{padding:13px 0;}
+.list_bd .rows .checkbox{width:4%;}
+.list_bd .rows .box{width:86%; background:#f9f9f9; position:relative; padding:18px 5%;}
+.list_bd .rows .box>p{margin:0; margin-top:8px; font-size:12px; color:#676767;}
+.list_bd .rows .title{font-size:1+px; line-height:23px; color:#444;}
+.list_bd .rows .edit{position:absolute; right:2%; top:19px;}
+
+#page_edit .rows_hd{height:48px; line-height:48px; text-indent:21px; font-weight:bold; border-left:3px #55a290 solid;}
+
+.edit_hd{padding-top:10px; padding-bottom:10px; line-height:24px; background:#f6f6f6;}
+.rows_box{background:#fff; padding-bottom:10px;}
+.r_con_form{border-top:0;}
+.r_con_form .rows_hd{height:48px; line-height:48px; text-indent:21px; font-weight:bold; border-left:3px #55a290 solid;}
+.r_con_form label{width:12%; text-align:right; padding-right:2%;}
+.rows input{vertical-align:middle;}
+.rows .valign{color:#888; height:32px; line-height:28px;}
+.rows .expand_list{width:70%; margin-left:1%;}
+.rows .expand_list .btn_ok{margin:0; margin-right:3px;}
+.rows .expand_list select{margin:0 3px 6px 0;}
+.rows .attribute{padding:5px 10px; width:90%;}
+.rows .attribute h1{padding-bottom:3px; font-size:12px;}
+.rows .attribute li{border:1px #ddd solid; height:22px; line-height:22px; overflow:hidden; background:#f7f7f7; width:19%; float:left; margin-right:10px; margin-bottom:5px; text-indent:5px;}
+.rows .attribute .check{cursor:pointer;}
+.rows .attribute .check_on{border:1px red solid;}
+.rows .attribute .form_check{width:15px; overflow:hidden; vertical-align:middle; margin-right:1%;}
+.rows .attribute label{text-overflow:clip; font-size:12px; color:#666; text-align:left;}
+.rows .attribute .txt{width:50%; height:34px; line-height:34px; background:none; border:0;}
+.rows .color_list{border-bottom:1px #ccc solid;}
+.relation_box{width:100%; text-align:center; border:1px solid #ddd; background:#fff; border-left:none;}
+.relation_box .title{text-align:center; background:#f7f7f7;}
+.relation_box td{border-left:1px solid #ddd; border-top:1px dotted #ddd; padding:4px 5px;}
+.relation_box thead td{border-top:none; font-weight:bold; background:#eee;}
+.relation_box td .form_input{width:40px; height:22px; line-height:22px;}
+.relation_box .spacing{padding:10px;}
+.relation_box .spacing img{left:0; top:0;}
+.btn_cancel{margin-left:10px;}
+
+
+
+/***** news Start *****/
+#news{width:100%;}
+#news:after{clear:both; display:block; content:'';}
+#news .list_nav .turn_page{clear:none; margin-left:15px; margin-top:13px;}
+
+#news_edit .rows_hd{height:48px; line-height:48px; text-indent:21px; font-weight:bold; border-left:3px #55a290 solid;}
+/***** news End *****/
+
+
+
+/***** ad Start *****/
+#ad .list_box{padding:0 2.5% 0 2.3%;}
+#ad .r_con_table{margin-left:2.3%; width:95.2%;}
+#ad .r_con_table td{text-align:left; padding-left:1.5%;}
+#ad .r_con_table .last{padding:0;}
+#ad .r_con_table .last table{border-collapse:collapse; margin-top:-1px;}
+#ad .r_con_table .last table td{border:#e8e8e8 solid; border-width:1px 0 0 0;}
+#ad .r_con_table .last table .center{text-align:center;}
+#ad .list_hd{height:57px; line-height:57px;}
+#ad .list_title{margin-left:11px; font-weight:bold;}
+#ad .list_nav .panel{margin-left:15px; margin-top:13px;}
+#ad .list_nav .panel_1{background-position:-46px 0;}
+#ad .list_nav .panel_2{background-position:-91px 0;}
+#ad .list_nav .panel_3{background-position:-136px 0;}
+#ad .list_nav .panel_4{background-position:-197px 0;}
+#ad .list_nav .panel_5{background-position:-242px 0;}
+#ad .list_nav .panel li{border:1px #cecece solid; float:left; height:33px; line-height:33px; overflow:hidden; border-right:0; text-indent:99px;}
+#ad .list_nav .panel li:first-child{border-top-left-radius:6px; border-bottom-left-radius:6px; border-right:0;}
+#ad .list_nav .panel li:last-child{border-top-right-radius:6px; border-bottom-right-radius:6px; border-right:1px #cecece solid;}
+#ad .list_nav .panel a{width:44px; height:33px; display:block; text-align:center; background-image:url(../images/frame/list_nav.jpg);}
+#ad .rows_box{background:#fff; padding-bottom:10px;}
+#ad .r_con_form .rows_hd{height:48px; line-height:48px; text-indent:21px; font-weight:bold; border-left:3px #55a290 solid;}
+#ad .r_con_form label{width:12%; text-align:right; padding-right:2%;}
+#ad .rows input{vertical-align:middle;}
+/***** ad End *****/

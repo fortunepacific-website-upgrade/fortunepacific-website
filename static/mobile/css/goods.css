@@ -1,0 +1,63 @@
+@charset "utf-8";
+/*
+Powered by ly200.com		http://www.ly200.com
+广州联雅网络科技有限公司		020-83226791
+font-size
+12px 0.75rem
+14px 0.875rem
+16px 0.1rem
+18px 1.125rem
+20px 1.25rem
+22px 1.375rem
+24px 1.5rem
+26px 1.625rem
+28px 1.75rem
+30px 1.5rem
+32px 2rem
+*/
+
+.position{padding:0.5rem; font-size:0.75rem; line-height:140%;}
+.position a{font-size:0.75rem; color:#333;}
+
+.goods_pic{width:100%; height: 20rem; margin:0.37rem auto 0; text-align:center; background:url(../images/loading.gif) no-repeat center; background-size:5%; overflow:hidden;}
+.goods_pic ul{display:none;}
+.goods_pic ul li{height: 20rem; text-align:center;}
+.goods_pic ul li img{vertical-align:middle; max-height:100%;}
+.goods_pic img{vertical-align:middle;}
+.goods_small_pic{width:100%; overflow:hidden; padding:0.16rem 0; -webkit-box-sizing:border-box; box-sizing:border-box; background:#f6f6f6; display:none; text-align:center;}
+.goods_small_pic img{vertical-align:middle; max-height:100%;}
+.goods_small_pic .list{width:200%;}
+.goods_small_pic .pic{border:1px solid #efefef; background:#fff; -webkit-box-sizing:border-box; box-sizing:border-box;}
+.goods_small_pic .pic.on{border:1px solid #d9d9d9;}
+
+.goods_info{width:92.1875%; margin:1.125rem auto 0;}
+.goods_info .name{line-height:1.5rem; color:#333; font-size:0.875rem; margin-bottom:0.3rem;}
+.goods_info .price{line-height:1.5rem; font-size:0.75rem; color:#d8061f;}
+
+#goods_inquiry{position:fixed; height:1.875rem; width:100%; bottom:0; left:0; z-index:10;}
+#goods_inquiry a{display:block; width:100%; height:1.875rem; line-height:1.875rem; text-align:center; font-size:0.75rem; font-weight:bold;}
+.inquiry_bg{height: 1.875rem;}
+
+.detail_desc{margin-top:0.16rem;}
+.detail_desc table{border-collapse:collapse;}
+.detail_desc table td{border:1px solid #ddd;}
+.detail_desc .t{line-height:1.3125rem; height:1.3125rem; border:solid #e5e5e5; border-width:1px 0; padding-left:3.125%; font-size:0.75rem; background:url(../images/desc_t_bg.jpg) repeat-x 0 0; background-size:3.90625%;}
+.detail_desc .text{width:93.75%; margin:0 auto; padding:0.875rem 0; font-size:0.75rem; line-height:180%;}
+.detail_desc .text *{font-size:0.75rem; line-height:180%;}
+/*.detail_desc .text h1{font-size:0.26rem; line-height:0.32rem;}
+.detail_desc .text h2{font-size:0.75rem; line-height:0.3rem;}
+.detail_desc .text h3{font-size:0.22rem; line-height:0.28rem;}*/
+
+
+.pd_content{padding:10px 0; overflow:hidden; line-height:normal;}
+.pd_content p{margin:5px 0;}
+.pd_content h1, .pd_content h2, .pd_content h3, .pd_content h4, .pd_content h5, .pd_content h6, .pd_content b, .pd_content strong{font-weight:bold;}
+.pd_content h4{margin:1.33em 0;}
+.pd_content li{list-style-type:inherit;}
+.pd_content i, .pd_content cite, .pd_content em{font-style:italic;}
+.pd_content td, .pd_content th{padding:5px 10px; border:1px #ddd solid;}
+
+.pro_down{margin-bottom:0.5rem;}
+.pro_down li{line-height:2.625rem; border-bottom:1px solid #f3f3f3; font-size:0.75rem; color:#333;padding-left: 0.7rem;}
+.pro_down li a{display: block;position: relative;font-size:0.75rem;color: #333;}
+.pro_down .down_btn{position: absolute;right: 0;font-size:0rem; padding:0rem;width: 2.625rem;height: 2.625rem;background: url(../images/user_download.png) no-repeat center center / 40% auto;}

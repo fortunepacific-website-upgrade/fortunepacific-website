@@ -1,0 +1,39 @@
+/*
+Powered by ueeshop.com		http://www.ueeshop.com
+广州联雅网络科技有限公司		020-83226791
+*/
+
+#model .r_con_table .attr_list .attr_box{width:180px; height:30px; overflow:hidden; margin-right:10px; margin-bottom:6px; background-color:#fff; border:1px #ddd solid; float:left; position:relative;}
+#model .r_con_table .attr_list .attr_box>dd{float:left;}
+#model .r_con_table .attr_list .attr_box>dd.attr_ico{width:30px; height:30px; background:url(../images/frame/icon_move_1.png) no-repeat center center #f7f7f7; cursor:move;}
+#model .r_con_table .attr_list .attr_box>dd.attr_txt{width:150px; line-height:30px; overflow:hidden; text-indent:5px; cursor:default;}
+#model .r_con_table .attr_list .attr_box>dd.attr_menu{width:50px; height:30px; line-height:26px; text-align:center; background-color:#f7f7f7; border-left:1px #ddd solid; position:absolute; top:0; right:-51px; z-index:10;}
+#model .r_con_table .attr_list .attr_add{width:30px; height:30px; line-height:28px; overflow:hidden; margin-right:10px; margin-bottom:6px; background-color:#fff; border:1px #ddd solid; float:left; position:relative; text-align:center;}
+#model .r_con_table .attr_list .attr_add>a{display:block; text-decoration:none; font-size:20px;}
+#model .r_con_table .attr_list .placeHolder{border:1px #ddd dotted;}
+
+#products .expand_list{padding-top:5px;}
+#products .expand_list li{clear:both; height:38px; padding:5px 0;}
+#products .expand_list li .close{margin-left:10px; margin-top:8px;}
+#products .list_menu_button>li>a.explode{display:none;}
+#products .platform_rows .item{width:50px; height:50px; margin-right:10px; float:left; border:1px solid #ddd; border-radius:20px; cursor:pointer;}
+#products .platform_rows .item.current{border-color:#07bb8b;}
+#products .platform_url_rows label div{display:inline-block; width:50px; height:20px; overflow:hidden;}
+#products .platform_url_rows label div img{width:50px; height:50px; max-height:50px; max-width:50px; margin-top:-12px;}
+#products .file_download_row li{padding-bottom:10px; height:38px;}
+#products .file_download_row li:first-child{height:22px;}
+#products .file_download_row li div{width:60%; float:left; overflow:hidden;}
+#products .file_download_row li div.pwd{width:40%;}
+#products .file_download_row li div input{width:80%;}
+#products #global_form .box_select{width: 404px;}
+
+.r_con_table tbody td.img .pic_box{width:85px; height:85px; text-align:center; display:block;}
+.r_con_table tbody td.img .pic_box>img{overflow:hidden; border-radius:4px;}
+#products .r_con_table tbody td.info .name{font-size:13px;}
+#products .r_con_table tbody td.info .classify{line-height:24px; padding-bottom:5px;}
+#products .r_con_table tbody td.info .other_box{height:24px; line-height:24px; margin:4px 8px 8px 0; padding:0 8px; font-size:12px; background-color:#e4f6f1; border-radius:4px; display:block;}
+
+.r_con_table tbody td.operation dl{display: inline-block;margin-left: 12px;}
+
+#category_inside .left_container .global_container,
+#category_inside .right_container .global_container{margin:0;}

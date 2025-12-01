@@ -1,0 +1,27 @@
+@charset "utf-8";
+/*
+Powered by ly200.com		http://www.ly200.com
+广州联雅网络科技有限公司		020-83226791
+*/
+
+.home_bg{position:relative; height:20rem; background:no-repeat 0 0/100%;}
+.home_bg .box{width:93.75%; margin:0 auto;}
+.home_bg .box .item{width:47%; background:rgba(0,0,0,.4); height:4.3125rem; margin-top:1.3125rem; border-radius:0.4rem; -webkit-tap-highlight-color:transparent; display:block;}
+.home_bg .box .item .icon{margin:0.375rem auto 0; height:2.25rem; background:no-repeat center center/100%;}
+.home_bg .box .item .icon0{background-image:url(../images/icon0.png); width:9.929%;}
+.home_bg .box .item .icon1{background-image:url(../images/icon1.png); width:17.0212%;}
+.home_bg .box .item .icon2{background-image:url(../images/icon2.png); width:24.82269%;}
+.home_bg .box .item .icon3{background-image:url(../images/icon3.png); width:20.56737%;}
+.home_bg .box .item .name{line-height:1.4375rem; text-align:center; color:#fff; font-size:0.875rem;}
+
+.home_menu{margin-top:0.0625rem;  border-bottom:2px solid #6f6f6f;}
+.home_menu .i{line-height:1.875rem; border-bottom:1px solid #222; height:1.875rem; background:#333; padding-left:12.1875%; /*padding-left:12.1875%;*/ color:#fff; font-size:0.75rem;}
+.home_menu .i a{color:#fff; font-size:0.75rem;}
+.home_menu .i0{background:#333 url(../images/email.png) no-repeat 3.75% center/5.46875%;}
+.home_menu .i1{background:#333 url(../images/earth.png) no-repeat 3.75% center/5.78125%;}
+.home_menu .i .lang{line-height:1.875rem; height:1.875rem; position:relative; color:#fff; font-size:0.75rem; padding-right:0.8125rem;}
+.home_menu .i .lang:after{position:absolute; content:''; height:0.125rem; width:0.5rem; background:url(../images/lang_bg.png) no-repeat 0 0/100%; right:0; top:0.875rem; -webkit-transform:rotate(180deg); transform:rotate(180deg); -webkit-transition:-webkit-transform 0.3s; transition:transform 0.3s;}
+.home_menu .i .lang.on:after{-webkit-transform:rotate(0deg); transform:rotate(0deg);}
+.home_menu .i .lang .list{position:absolute; left:0; bottom:1.5rem; border:1px solid #6f6f6f; border-bottom:none; background:#333; display:none;}
+.home_menu .i .lang .list a{line-height:0.9375rem; padding:0 0.5rem; min-width:5rem; -webkit-box-sizing:border-box; box-sizing:border-box; border-bottom:1px solid #6f6f6f; color:#fff; font-size:0.75rem; display:block; white-space:nowrap;}
+.home_menu .i .lang.on .list{display:block;}

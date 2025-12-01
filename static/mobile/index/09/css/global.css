@@ -1,0 +1,29 @@
+@charset "utf-8";
+/*
+Powered by ly200.com		http://www.ly200.com
+广州联雅网络科技有限公司		020-83226791
+*/
+html{font-family: 'Microsoft Sans Serif';}
+#header_fill{height: 3.125rem;}
+header{position: relative;height: 3.125rem;padding: 0 3.125rem;border-bottom: 0.0625rem solid #f5f5f5;box-shadow: 0 1px 2px 0 rgba(0,0,0,.24);}
+header .logo{height: 3.125rem;text-align: center;padding: 0;margin: 0;width: 100%;}
+header .logo img{max-height: 75%;}
+header .icon{position: absolute;top: 0;width: 3.125rem;height: 3.125rem;padding: 0;margin: 0;}
+header .icon_1{left: 0;background: url(../images/ico_menu.png) no-repeat center center / 40%;}
+header .icon_3{right: 0;background: url(../images/search.png) no-repeat center center / 40%;}
+
+footer{background: #555;}
+footer nav{text-align:center;padding-top: 0.8rem;margin-bottom: 0.5rem;height: 1rem;overflow: hidden;line-height: 1rem;}
+footer nav em{display: inline-block;vertical-align: top;margin-top: 0.3rem;width: 0;border-left: 1px solid #636363;height: 0.5rem;}
+footer nav a{display: inline-block;vertical-align: top;font-size:0.75rem; margin:0 2.78%; white-space:nowrap; word-break:keep-all; color:white;}
+footer .share{padding: 0.625rem 3% 1.25rem;font-size: 0;text-align: center;}
+footer .share a{display: inline-block;margin: 0 1.5%;width: 2rem;height: 2rem;background: url(../images/Facebook.png) no-repeat center center / 100% 100%;}
+footer .share .Facebook{background-image:url(../images/Facebook.png);}
+footer .share .Twitter{background-image:url(../images/Twitter.png);}
+footer .share .Pinterest{background-image:url(../images/Pinterest.png);}
+footer .share .LinkedIn{background-image:url(../images/LinkedIn.png);}
+footer .share .YouTube{background-image:url(../images/YouTube.png);}
+footer .share .Google{background-image:url(../images/Google.png);}
+footer section{color: white;border: none;padding: 0.9375rem 2%;line-height: 1.125rem;font-size: 0.75rem;}
+footer section a{color: white;font-size: 0.75rem;}
+

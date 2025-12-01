@@ -1,0 +1,22 @@
+@charset "utf-8";
+/*
+Powered by ly200.com		http://www.ly200.com
+广州联雅网络科技有限公司		020-83226791
+*/
+
+.banner{position:relative;}
+.banner .btn{position:absolute; left:0; width:100%; bottom:0.1rem; text-align:center;}
+.banner .btn span{display:inline-block; content:''; width:10px; border-radius:5px; background:#fff; margin:0 .1%; height:10px;}
+.banner .btn span.on{background:#0055c6;}
+
+.home_menu{}
+.home_menu .item{background:#333;}
+.home_menu .item h2{line-height:1.875rem; -webkit-box-sizing:border-box; box-sizing:border-box; padding:0 4.53125%; border-bottom:1px solid #222; position:relative; height:1.875rem;}
+.home_menu .item h2 a{color:#fff; font-size:0.75rem; display:block;}
+.home_menu .item.lower h2 a{display:inline;}
+.home_menu .item.lower h2:after{position:absolute; right:5.46875%; top:0.75rem; height:0.5rem; width:0.5rem; background:url(../images/home_menu.png) no-repeat 0 0; content:''; display:block; -webkit-transition:-webkit-transform 0.3s; transition:transform 0.3s;}
+.home_menu .item .sub{display:none; background:#434343;}
+.home_menu .item .sub .i{line-height:1.875rem; -webkit-box-sizing:border-box; box-sizing:border-box; padding:0 8%; border-bottom:1px solid #222; height:1.875rem;}
+.home_menu .item .sub .i a{color:#fff; font-size:0.75rem; display:block;}
+.home_menu .lower.on .sub{display:block;}
+.home_menu .lower.on h2:after{-webkit-transform:rotate(-90deg); transform:rotate(-90deg);}

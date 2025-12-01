@@ -1,0 +1,84 @@
+/*
+Powered by ly200.com		http://www.ly200.com
+广州联雅网络科技有限公司		020-83226791
+*/
+html, div{outline:0;}
+.show{display:block;}
+.hide{display:none;}
+.ta_l{text-align:left;}
+.va_m{vertical-align:middle;}
+.no_drop{cursor:no-drop;}
+.line_h_28{line-height:28px;}
+
+.clean{zoom:1;}
+.clean:after{content:""; display:block; clear:both;}
+
+.watermark_tab{border-collapse:collapse; background:#fff; margin-top:3px;}
+.watermark_tab .item{border:1px solid #e8e8e8; width:60px; padding:20px 10px; cursor:pointer; text-align:center; position:relative;}
+.watermark_tab .item .filter{position:absolute; left:0; top:0; width:100%; height:100%; background:#000; filter:alpha(opacity=70); -moz-opacity:0.7; opacity:0.7; display:none;}
+.watermark_tab .item .check{position:absolute; left:0; top:0; width:100%; height:100%; background:url(../../images/ico/selected_icon.png) no-repeat center center; display:none;}
+.watermark_tab .item_on .filter, .watermark_tab .item_on .check{display:block;}
+
+#slider_box #slider{width:200px; height:10px; margin:9px 6px 0 0;}
+#slider_box span{font-size:11px; color:#777;}
+
+#module .list_box{padding:0 2.5% 0 2.3%;}
+#module .rows_box{background:#fff; padding-bottom:10px;}
+#module .r_con_form .rows_hd{height:48px; line-height:48px; text-indent:21px; font-weight:bold; border-left:3px #55a290 solid;}
+#module .r_con_form label{width:12%; text-align:right; padding-right:2%;}
+
+.preview{width:249px; height:249px; overflow:hidden; background:url(../images/frame/demo.jpg) no-repeat;}
+.preview .watermark_tab{background:none;}
+.preview .watermark_tab .item{width:83px; height:83px; padding:0; border:0;}
+.preview .watermark_tab .item img{max-width:83px; max-height:83px; text-align:center;}
+
+
+/***** 页面风格设置 start *****/
+#module_form .item{margin-right:3%; margin-top:20px; position:relative; border:5px #fff solid; border-radius:4px; -moz-border-radius:4px; -webkit-border-radius:4px;}
+#module_form .item .img{width:210px; height:283px; overflow:hidden; cursor:pointer; display:table-cell; vertical-align:middle; background:#f1f1f1; text-align:center;}
+#module_form .item .img img{max-width:100%; max-height:100%; vertical-align:middle;}
+#module_form .item .info{position:absolute; left:0; bottom:0; width:100%; height:35px; line-height:35px; background:rgba(0,0,0,0.4); color:#fff; overflow:hidden; display:none;}
+#module_form .item .info span{margin-left:2%;}
+#module_form .item .btn{width:12%;}
+#module_form .item .btn>a{margin-right:15%;}
+#module_form .mr_0{margin-right:0;}
+#module_form .current{border:5px #54a28f solid;}
+
+/*#module .r_con_form{background:#fff; padding-bottom:20px;}*/
+#module .r_con_form .no_input{margin-bottom:6px;}
+/***** 页面风格设置 end *****/
+
+
+#module .r_con_form .module_nav_table label{width:6%;}
+.r_con_form .module_nav_table .rows .input select{border: 1px solid #ddd; border-radius: 5px; height: 24px; padding: 0 5px; vertical-align: middle;}
+.module_nav_table .nav_oth_span{display:none;}
+.module_nav_table .nav_oth_span select{width:180px;}
+
+.fl_listmodule{ width:60%; float:left;}
+#header_order_form{ width:35%; float:right;}
+
+
+/*************** 导航设置 (Start) ***************/
+#module .rows_box{background:#efefef; margin-top:10px;}
+#module .btn_ok{margin:5px 3%;}
+#module .btn_ok.upload_btn{margin:5px 0;}
+
+#module .module_nav_table{width:96%;}
+#module .module_nav_table .del{margin-left:5px;}
+#module .module_nav_table .del>img{vertical-align:middle;}
+#module .module_nav_table label{width:6%;}
+#module .module_nav_table .add_custom_item, #module .module_nav_table .add_item{margin-left:20px;}
+#module .module_nav_table .select_input{padding-left:30px;}
+
+#nav_custom_hide, #nav_hide{display:none;}
+
+#nav_custom_list .custom_row{margin-left:20px;}
+
+.nav_form_left{width:70%; overflow:hidden;}
+.nav_form_right{width:28%; overflow:hidden;}
+
+.myorder_list{padding:1px 0 20px 0;}
+.myorder_list li{height:41px; line-height:41px; border:1px transparent solid;}
+.myorder_list li>div{padding:0 4px 0 15%; background: url(../images/products/menu_dt_cur.png) no-repeat 5% center; cursor:move;}
+.myorder_list .placeHolder{border:1px #1584D5 dashed; background-color:#fff;}
+/*************** 导航设置 (End) ***************/

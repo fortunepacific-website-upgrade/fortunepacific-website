@@ -1,0 +1,21 @@
+@charset "utf-8";
+/*
+Powered by ly200.com		http://www.ly200.com
+广州联雅网络科技有限公司		020-83226791
+*/
+
+.banner{position:relative;}
+.banner .btn{position:absolute; left:0; width:100%; bottom:0.1rem; text-align:center;}
+.banner .btn span{display:inline-block; content:''; width:10px; border-radius:5px; background:#fff; margin:0 .1%; height:10px;}
+.banner .btn span.on{background:#0055c6;}
+
+.home_box{}
+.home_box .item{}
+.home_box .item .img, .home_box .item .c{width:50%; height:5.75rem; overflow:hidden; -webkit-box-sizing:border-box; box-sizing:border-box;}
+.home_box .item .c{padding:0 3.125%;}
+.home_box .item .c h2{line-height:0.9375rem; padding:0.5rem 0 0.3125rem 0; font-size:0.875rem;}
+.home_box .item .txt{line-height:0.9375rem; font-size:0.75rem;}
+
+.home_oth{width:93.75%; margin:0 auto; }
+.home_oth .t{border-bottom:2px dashed #ff78ac; line-height:2.25rem; -webkit-box-sizing:border-box; box-sizing:border-box; padding-left:8.8333333%; font-size:0.75rem; background:url(../images/home_t.jpg) no-repeat center left/6.66666%;}
+.home_oth .txt{line-height:0.875rem; font-size:0.75rem; padding:0.5rem 0;}

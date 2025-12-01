@@ -1,0 +1,135 @@
+@charset "utf-8";
+/*
+Powered by ly200.com		http://www.ly200.com
+广州联雅网络科技有限公司		020-83226791
+*/
+body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, input, p {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font: inherit;
+	/*font-size: 100%;*/
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary {
+	display: block;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+td, th {
+  padding: 0;
+}
+a:active,
+a:hover {
+  outline: 0;
+}
+a{text-decoration:none; -webkit-tap-highlight-color:transparent;}
+img{max-width:100%;max-height: 100%;}
+.pic_box{text-align:center;}
+.pic_box span{vertical-align:middle; height:100%; display:inline-block;}
+.pic_box img{vertical-align:middle;max-height: 100%;}
+/* end of reset */
+/* 清浮动 */
+.clean{}
+.clean:after,.clean:before{display:table; content:'';}
+.clean:after{clear:both;}
+
+
+.clear{height:0; line-height:0; font-size:0; overflow:hidden; clear:both;}
+
+.fl{float:left;}
+.fr{float:right;}
+.posabs{position:absolute;}
+.posrel{position:relative;}
+.blank10{height:0.1rem; overflow:hidden; font-size:0; clear:both;}
+.blank15{height:0.15rem; overflow:hidden; font-size:0; clear:both;}
+.blank25{height:0.25rem; overflow:hidden; font-size:0; clear:both;}
+.blank30{height:0.3rem; overflow:hidden; font-size:0; clear:both;}
+
+.turn_page{text-align:center; height:1.25rem; line-height:1.25rem; font-size:0.75rem; color:#555;margin: 0.5rem 0;}
+.turn_page a,.turn_page font{display:inline-block; -webkit-box-sizing:border-box; box-sizing:border-box; height:1.25rem; line-height:1.25rem; width:6.5%; border-radius:0.04rem; text-align:center; font-size:0.75rem; color:#555; margin:0 0.4%; border:1px solid #ddd;}
+.turn_page .btn{border:1px solid #ddd;}
+.turn_page .btn.prev{background:url(../images/turn_page_lbtn.jpg) center center no-repeat; background-size:28%;}
+.turn_page .btn.next{background:url(../images/turn_page_rbtn.jpg) center center no-repeat; background-size:28%;}
+.turn_page .cur{border:none !important; color:#046ECA;}
+
+.pd_content{padding:10px 0; overflow:hidden; line-height:normal;}
+.pd_content p{margin:5px 0;}
+.pd_content h1, .pd_content h2, .pd_content h3, .pd_content h4, .pd_content h5, .pd_content h6{font-weight:normal; line-height:1.2; margin:.67em 0;}
+.pd_content b, .pd_content strong{font-weight:bold; line-height:1.2;}
+.pd_content h4{margin:1.33em 0;}
+.pd_content li{list-style-type:inherit;}
+.pd_content i, .pd_content cite, .pd_content em{font-style:italic;}
+.pd_content td, .pd_content th{padding:5px 10px; border:1px #ddd solid;}
+
+#empty{font-size:0.75rem; text-align:center;margin-top: 0.2rem;}
+
+/*win_alert*/
+.win_alert{position:fixed; left: 0 !important;right: 0;top:30%;margin:auto; background:#fff; border:1px #ccc solid; opacity:0.95; filter:alpha(opacity=95); width:90%; z-index:100000; border-radius:8px; -moz-border-radius:8px; -webkit-border-radius:8px; padding-top:7px; overflow:hidden; box-shadow:0 2px 10px rgba(0,0,0,.25); -webkit-box-shadow:0 2px 10px rgba(0,0,0,.25);}
+.win_alert .win_close{height:14px; padding:5px 0;}
+.win_alert .win_close .close{float:right; padding:0; line-height:100%; font-size:1rem; margin-right:17px; opacity:0.2; filter:alpha(opacity=20); cursor:pointer; background:none; border:0; font-weight:bold; text-shadow:0 1px 0 #fff; color:#000; outline:0;}
+.win_alert .win_close .close:hover{opacity:0.5; filter:alpha(opacity=50);}
+.win_alert .win_tips{padding:12px 30px 26px 80px; background:url(../manage/images/frame/win_warning.jpg) no-repeat 30px 8px; line-height:23px; border-bottom:1px #dbdbdb solid; margin-bottom:1px;}
+.win_alert .win_btns{padding:10px 4px 10px 0; background:#ededed; text-align:right;}
+.win_alert .win_btns .btn{height:23px; line-height:23px; text-align:center; padding:0 17px; border:1px #b7b7b7 solid; background:#fff; color:#7d7070; cursor:pointer; margin-right:12px; font-size:0.875rem;}
+.win_alert .win_btns .btn_sure{border:1px #30ad8f solid; background:#37bd9c; color:#fff;}
+.win_alert .win_pwd{padding:10px 0 15px 0;}
+.win_alert .win_pwd .pwd_name{width:100%; text-indent: 3%;font-size:0.875rem; color:#000; line-height:30px; height:30px;}
+.win_alert .win_pwd .pwd_r{width: 100%;}
+.win_alert .win_pwd .pwd_text{ width: 94%;margin-left: 3%;border:1px solid #e6e6e6; height:28px; line-height:28px;}
+.win_alert .win_pwd .error_tips{color:#f00; line-height:20px; display:none; width:94%;margin: 10px auto;font-size: 0.75rem;}
+
+.goods_info .platform_btn{ line-height:2rem; font-size:0.75rem; color:#333; border:1px solid #e3e3e3; display:block; text-align:center; margin-bottom:0.3rem; -moz-border-radius:5px; -ms-border-radius:5px; -o-border-radius:5px; -webkit-border-radius:5px; border-radius:5px;}
+.goods_info .platform_btn i{ width:1.3rem; height:1.3rem; margin-right:0.5rem; display:inline-block; margin-top:0.5rem; vertical-align:top;}
+.goods_info .amazon_btn i{ background:url(/static/images/ico/icon_amazon.jpg) no-repeat; background-size:100%;}
+.goods_info .aliexpress_btn i{ background:url(/static/images/ico/icon_aliexpress.png) no-repeat; background-size:100%;}
+.goods_info .wish_btn i{ background:url(/static/images/ico/icon_wish.png) no-repeat; background-size:100%;}
+.goods_info .ebay_btn i{ background:url(/static/images/ico/icon_ebay.png) no-repeat; background-size:100%;}
+.goods_info .alibaba_btn i{ background:url(/static/images/ico/icon_alibaba.png) no-repeat; background-size:100%;}

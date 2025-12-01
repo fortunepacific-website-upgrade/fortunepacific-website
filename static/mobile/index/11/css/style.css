@@ -1,0 +1,36 @@
+@charset "utf-8";
+/*
+Powered by ly200.com		http://www.ly200.com
+广州联雅网络科技有限公司		020-83226791
+*/
+.index{background: #f8f8f8;}
+.banner{position:relative;}
+.home_title{width:93.4375%;height: 3rem;line-height: 3rem;margin:0 auto;font-size: 1.125rem;text-align: center;text-transform: uppercase;font-family: 'Verdana';}
+
+.home_pic{width: 94.4%;margin: 0 auto;}
+.home_pic img{width: 100%;height: 100%;}
+.home_pic .picA{float: left;width: 44.4%;}
+.home_pic .picB{float: right;width: 51.7%;}
+.home_pic .picB .pict{width: 100%;}
+.home_pic .picB .picb{width: 100%;margin-top: 6.96%;}
+
+.home_box{background:#fff; overflow:hidden;width: 94.4%;margin: 0 auto;padding-top: 3%;}
+.home_box .small_pro{width:50%;padding: 0 2.5% 2.5%;box-sizing:border-box;-webdit-box-sizing:border-box;-moz-box-sizing:border-box;text-align: center;}
+.home_box .small_pro .c{width:91.6107%; margin:0 auto; padding-top:0.14rem; padding-bottom:0.16rem;}
+.home_box .small_pro .c .img{width:100%; height:8.9375rem; text-align:center; background: url(../../../images/loading.gif) no-repeat center; background-size:11.7216117%;}
+.home_box .small_pro .c .img img{vertical-align:middle; max-height:100%;}
+.home_box .small_pro .c .proname{padding:0.3125rem 0;}
+.home_box .small_pro .c .proname a{display: block;height: 1.25rem;margin: 0 2%;line-height: 1.25rem;overflow: hidden;font-size: 0.8125rem;color: #000000;}
+.home_box .small_pro .c .probrief{max-height: 2rem;overflow: hidden;line-height: 1rem;font-size: 0.75rem;color: #666666;margin-bottom: 0.1rem;}
+.home_box .small_pro .c .price{height: 1.3rem;line-height: 1.3rem;font-size: 0.875rem;}
+.home_box .small_pro .c .promore{display: block;width: 37.5%;height: 1.3rem;line-height: 1.3rem;background: #f9b61e;color:white;margin: 0.5rem auto 0;font-size: 0.75rem;}
+
+.home_contact{margin-top: 1.25rem;}
+.home_contact .contact{position: relative;float: left;width: 50%;background: #ccc;}
+.home_contact .contact .con{position: absolute;top: 0;bottom: 0;left: 0;right: 0;margin:auto;max-width: 80%;text-align: center;}
+.home_contact .contact .con .name{display: inline-block;padding: 0 0.5rem;max-height: 2.5rem;overflow: hidden;line-height: 1.25rem;font-size: 0.75rem;border:0.0625rem solid white;font-weight: bold;color: white;}
+.home_contact .contact .con .desc{padding-top: 0.2rem;max-height: 3rem;overflow: hidden;line-height: 1rem;font-size: 0.75rem;color: white;}
+
+
+
+

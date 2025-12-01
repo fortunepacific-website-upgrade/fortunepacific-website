@@ -1,0 +1,76 @@
+RewriteEngine On
+RewriteBase /
+
+Rewrite ^/(index.html)?$ 										/index.php?m=index [L]
+Rewrite ^/(index_([0-9]+).html)?$ 								/index.php?m=index&cur_p=$1 [L]
+Rewrite ^/404.html$ 											/index.php?a=404 [L]
+Rewrite ^/feedback.html$ 										/index.php?m=feedback [L]
+
+
+Rewrite ^/art/\S+-a0([0-9]+)a1.html$ 							/index.php?m=article&AId=$1 [L]
+Rewrite ^/art/(\S+)$ 											/index.php?m=article&PageUrl=$1 [L]
+
+Rewrite ^/info/$ 												/index.php?m=info [L]
+Rewrite ^/info/([0-9]+).html$ 									/index.php?m=info&page=$1 [L]
+Rewrite ^/info/\S*_c([0-9]+)$ 									/index.php?m=info&CateId=$1 [L]
+Rewrite ^/info/\S*_c([0-9]+)/([0-9]+).html$ 					/index.php?m=info&CateId=$1&page=$2 [L]
+Rewrite ^/info/\S*-i0([0-9]+)i1.html$ 							/index.php?m=info-detail&InfoId=$1 [L]
+
+Rewrite ^/case/$ 												/index.php?m=case [L]
+Rewrite ^/case/([0-9]+).html$ 									/index.php?m=case&page=$1 [L]
+Rewrite ^/case/\S*_c([0-9]+)$ 									/index.php?m=case&CateId=$1 [L]
+Rewrite ^/case/\S*_c([0-9]+)/([0-9]+).html$ 					/index.php?m=case&CateId=$1&page=$2 [L]
+Rewrite ^/case/\S*-c0([0-9]+)c1.html$ 							/index.php?m=case-detail&CaseId=$1 [L]
+
+Rewrite ^/download/$ 											/index.php?m=download [L]
+Rewrite ^/download/([0-9]+).html$ 								/index.php?m=download&page=$1 [L]
+Rewrite ^/download/\S*_c([0-9]+)$ 								/index.php?m=download&CateId=$1 [L]
+Rewrite ^/download/\S*_c([0-9]+)/([0-9]+).html$ 				/index.php?m=download&CateId=$1&page=$2 [L]
+
+
+Rewrite ^/search/$ 												/index.php?m=products [L]
+Rewrite ^/search/([0-9]+).html$ 								/index.php?m=products&page=$1 [L]
+Rewrite ^/catalog/$ 											/index.php?m=catalog [L]
+Rewrite ^/products/$ 											/index.php?m=products [L]
+Rewrite ^/products/([0-9]+).html$ 								/index.php?m=products&page=$1 [L]
+Rewrite ^/New-Arrival/?$ 										/index.php?m=products&Ext=1 [L]
+Rewrite ^/products/latest/?$ 									/index.php?m=products&Ext=1 [L]
+Rewrite ^/products/popular/?$ 									/index.php?m=products&Ext=2 [L]
+Rewrite ^/products/featured/?$ 									/index.php?m=products&Ext=3 [L]
+Rewrite ^/New-Arrival/([0-9]+).html$ 							/index.php?m=products&Ext=1&page=$1 [L]
+Rewrite ^/products/latest/([0-9]+).html$ 						/index.php?m=products&Ext=1&page=$1 [L]
+Rewrite ^/products/popular/([0-9]+).html$ 						/index.php?m=products&Ext=2&page=$1 [L]
+Rewrite ^/products/featured/([0-9]+).html$ 						/index.php?m=products&Ext=3&page=$1 [L]
+
+Rewrite ^/catalog/?$ 											/index.php?a=catalog [L]
+Rewrite ^/catalog/c_([0-9]+)/?$ 								/index.php?a=catalog&CateId=$1 [L]
+
+Rewrite ^/c/\S*_([0-9]+)$ 										/index.php?m=products&CateId=$1 [L]
+Rewrite ^/c/\S*_([0-9]+)/([0-9]+).html$ 						/index.php?m=products&CateId=$1&page=$2 [L]
+
+Rewrite ^/inquiry-\S*-p0([0-9]+)p1.html$ 						/index.php?m=inquiry&ProId=$1 [L]
+Rewrite ^/\S*-p0([0-9]+)p1.html$ 								/index.php?m=goods&ProId=$1 [L]
+
+
+Rewrite ^/inquiry.html$ 										/index.php?m=inquiry [L]
+Rewrite ^/sitemap.html$ 										/index.php?m=sitemap [L]
+
+
+Rewrite ^/init.html$ 											/index.php?m=gateway&a=init [L]
+
+
+###################################################################################################################
+
+Rewrite ^/blog/$ 												/index.php?m=blog [L]
+Rewrite ^/blog/c/\S*_([0-9]+)$ 									/index.php?m=blog&a=list&CateId=$1 [L]
+Rewrite ^/blog/c/\S*_([0-9]+)/([0-9]+).html$ 					/index.php?m=blog&a=list&CateId=$1&page=$2 [L]
+Rewrite ^/blog/\S*_b([0-9]+).html$ 								/index.php?m=blog&a=detail&AId=$1 [L]
+
+############################################# member ######################################################################
+Rewrite ^/account/$ 											/index.php?m=user&l=$1 [L]
+Rewrite ^/account/login.html$ 									/index.php?m=user&a=login [L]
+Rewrite ^/account/logout.html$ 									/index.php?m=user&do_action=user.logout [L]
+Rewrite ^/account/download.html$ 								/index.php?m=user&a=download [L]
+Rewrite ^/account/sign-up.html$ 								/index.php?m=user&a=register [L]
+Rewrite ^/account/forgot.html$ 									/index.php?m=user&a=forgot [L]
+Rewrite ^/account/setting/$ 									/index.php?m=user&a=setting [L]

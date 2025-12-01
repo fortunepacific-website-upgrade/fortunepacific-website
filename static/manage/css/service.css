@@ -1,0 +1,38 @@
+/*************************** 在线客服 start ***************************/
+.chat_center_container{width: 900px; max-width:900px; margin:20px auto;}
+#chat{position:relative;}
+#chat .fixed{width:auto;}
+#chat .fixed .r_con_form{border:1px #e8e8e8 solid;}
+#chat .fixed .r_con_form .rows>label{width:18%;}
+#chat .style_box{width:auto; margin:15px 0 10px; background-color:#fff; border:1px #e8e8e8 solid;}
+#chat .style_box .box{width:20%;}
+#chat .style_box .box_hd{height:40px; text-align:center; line-height:40px; border-bottom:1px #e8e8e8 dashed;}
+#chat .style_box .box_bd img{max-width:100%; max-height:100%;}
+#chat .style_box .box_bd a{cursor:default;}
+#chat .move_myorder{cursor:move;}
+#chat .center{text-align:center;}
+#chat .chat_title{height: 60px;line-height: 60px;font-size: 26px;color: #676a6f;}
+#chat .chat_title .add{margin-top: 15px;}
+#chat .chat_box{position: relative;}
+#chat .chat_box .chat_list{position: relative;min-height: 160px;margin-bottom: 15px;padding: 20px 0 20px 209px;background: #fff url(../images/service/icon_chat_add.png) no-repeat top left;border-radius: 5px;overflow: hidden;}
+#chat .chat_box .chat_list.first{margin-left: 0;}
+#chat .chat_box .chat_list.qq{background-image: url(../images/service/icon_chat_qq.png);}
+#chat .chat_box .chat_list.skype{background-image: url(../images/service/icon_chat_skype.png);}
+#chat .chat_box .chat_list.email{background-image: url(../images/service/icon_chat_email.png);}
+#chat .chat_box .chat_list.trademanager{background-image: url(../images/service/icon_chat_trademanager.png);}
+#chat .chat_box .chat_list.wechat{background-image: url(../images/service/icon_chat_wechat.png);}
+#chat .chat_box .chat_list.whatsapp{background-image: url(../images/service/icon_chat_whatsapp.png);}
+#chat .chat_box .chat_list .move{display: none;position: absolute;top: 0;left: 0;cursor: move;width: 30px;height: 30px;background: url(../images/service/icon_chat_move.png) no-repeat center center;}
+#chat .chat_box .chat_list .list_box{background: #fff;}
+#chat .chat_box .chat_list .list{width: 190px;padding: 12px 0 12px 21px;height: 44px;position: relative;border: 1px solid #eeeeee;border-radius: 5px;float: left;margin-left: 11px;margin: 5px 0 5px 10px;}
+#chat .chat_box .chat_list .list.cur:before{width: 100%;height: 100%;border-radius: 5px;content: '';position: absolute;top: -1px;left: -1px;border:1px #aaa dashed;}
+#chat .chat_box .chat_list .icon_myorder{display: none;position: absolute;height: 22px;top: 0;bottom: 0;left: 5px;margin:auto;}
+#chat .chat_box .chat_list .name{height: 22px;line-height: 22px;font-size: 14px;color: #000;white-space: nowrap;}
+#chat .chat_box .chat_list .account{height: 22px;line-height: 22px;font-size: 12px;color: #888;}
+#chat .chat_box .chat_list .edit{display: none;color: #07bb8a;font-size: 12px;margin-left: 13px;}
+#chat .chat_box .chat_list .del{display: none;color: #aaa;margin-left: 6px;font-size: 12px;}
+#chat .chat_box .chat_list .list:hover .icon_myorder{display: block;}
+#chat .chat_box .chat_list .list:hover .edit,#chat .chat_box .chat_list .list:hover .del{display: inline-block;}
+
+#chat_edit_form .box_select{width:166px;}
+/*************************** 在线客服 end ***************************/

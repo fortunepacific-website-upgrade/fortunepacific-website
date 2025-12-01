@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+/***** reg set start *****/
+#message_set{width:100%;}
+#message_set .fixed{width:35%; margin-right:2%;}
+#message_set .custom{width:61%;}
+
+#message_set .fixed .rows_hd{height:45px; line-height:45px; background:#fff; padding-left:5%; font-weight:bold;}
+#message_set .r_con_table td{text-align:left; padding-left:5%;}
+
+#message_set .r_con_wrap{width:100%; padding:0 20px;}
+#message_set .r_con_form{background:#fff; padding-bottom:30px;}
+#message_set .custom .rows_hd, #message_set .r_con_form .rows_hd{height:48px; line-height:48px; text-indent:21px; font-weight:bold; border-left:3px #55a290 solid; background:#fff;}
+/***** reg set end *****/
