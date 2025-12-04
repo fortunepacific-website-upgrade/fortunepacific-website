@@ -1,20 +1,26 @@
-# 忽略备份文件
-*.backup*
-*.before_*
-
-# 忽略临时文件
-temp_*
-_tmp_*
+# 忽略临时文件和缓存
 *.tmp
+*.temp
+*_tmp_*
+_temp_*
 
 # 忽略日志文件
 *.log
+logs/
+log/
+
+# 忽略备份文件
+*.backup
+*.bak
+*.backup_*
+.backup_*
 
 # 忽略系统文件
 .DS_Store
 Thumbs.db
+desktop.ini
 
-# 忽略用户上传文件（除非必要）
+# 忽略用户上传文件（除特殊情况外）
 u_file/
 
 # 忽略数据库配置中的敏感信息
@@ -31,3 +37,15 @@ inc/config.php
 # 忽略压缩包
 *.tar.gz
 *.zip
+
+# 忽略Git相关
+.git/
+
+# 忽略特定的临时目录
+tmp/cache/
+tmp/manage/
+
+# 忽略宝塔相关
+/www/server/
+/www/wwwlogs/
+/www/backup/
